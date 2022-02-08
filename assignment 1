@@ -1,0 +1,27 @@
+// Online C compiler to run C program online
+#include <stdio.h>
+struct student
+{
+    char name,group;
+    int sno,s1,s2,s3;
+}s;
+int main() 
+{
+   int total, avg;
+    printf("enter student no, name, group");
+    scanf ("%s%s%d",s.name,s.group,&s.sno);
+    printf("enter 3 subject");
+    scanf("%d%d%d",&s.s1,&s.s2,&s.s3);
+    total= s.s1+s.s2+s.s3;
+    avg=(total)/3;
+  printf("sno=%d\n", s.sno);
+  printf("sname=%s\n",s.name);
+  printf("sgroup=%s\n",s.group) ;
+  printf("total=%d\n",total);
+  printf("avg=%d\n",avg);
+if(avg>50)
+    printf( "pass");
+    else
+    scanf ("fail");
+    return 0;
+}
